@@ -35,7 +35,7 @@ function Navbar() {
 					<MenuComponent
 						button={
 							<div className='menu'>
-								<Image src={MenuIcon} alt='Menu' height={40} objectFit='contain' />
+								<Image src={MenuIcon} alt='Menu' />
 							</div>
 						}
 						links={[
