@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Logo from '../../../public/brand/logo.png';
 import MenuIcon from '../../../public/icons/menu.png';
 import MenuComponent from '../../reusable/MenuComponent/MenuComponent';
+import LogoComponent from '../LogoComponent';
 
 function Navbar() {
 	return (
@@ -11,27 +11,25 @@ function Navbar() {
 			<div className='flex flex-row flex-wrap items-center'>
 				<div className='mr-auto'>
 					<Link href='/'>
-						<div className='flex flex-row items-center gap-2 cursor-pointer'>
-							<Image src={Logo} alt='Logo' width={50} height={50} />
-							<span className='max-w-[151px] font-bold uppercase text-secondary'>
-								Value female Network
-							</span>
-						</div>
+						<LogoComponent />
 					</Link>
 				</div>
 
-				<div className='flex-row items-center gap-10 hidden md:flex'>
+				<div className='flex-row items-center gap-10 hidden lg:flex'>
 					<Link href='/#about'>
 						<span className='font-bold hover:text-success cursor-pointer'>About Us</span>
 					</Link>
 					<Link href='/#events'>
-						<span className='font-bold hover:text-success cursor-pointer'>Event and News </span>
+						<span className='font-bold hover:text-success cursor-pointer'>Event and News</span>
+					</Link>
+					<Link href='/#contact'>
+						<span className='font-bold hover:text-success cursor-pointer'>Contact Us</span>
 					</Link>
 					<Link href='/#join-us'>
 						<button className='primaryButton'>Join Us</button>
 					</Link>
 				</div>
-				<div className='md:hidden relative cursor-pointer'>
+				<div className='lg:hidden relative cursor-pointer'>
 					<MenuComponent
 						button={
 							<div className='menu'>
@@ -46,6 +44,10 @@ function Navbar() {
 							{
 								label: 'Event and News',
 								href: '/#events',
+							},
+							{
+								label: 'Contact Us',
+								href: '/#contact',
 							},
 							{
 								label: 'Join Us',

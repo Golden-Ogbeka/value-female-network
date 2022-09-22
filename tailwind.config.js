@@ -4,10 +4,15 @@ module.exports = {
 	theme: {
 		extend: {
 			textColor: {
-				dark: 'rgba(24, 16, 16, 0.75)',
+				dark: '#1B1010BF',
 				primary: '#DA342C',
 				secondary: '#FF6600',
 				success: '#00915F',
+				lightSuccess: '#78E1BB',
+				offWhite: '#F6F3F3',
+			},
+			backgroundColor: {
+				dark: '#181010BD',
 			},
 		},
 	},
