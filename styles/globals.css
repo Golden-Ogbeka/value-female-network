@@ -6,11 +6,12 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: 'Open sans', sans-serif;
-	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
 	font-size: 16px;
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	color: rgba(24, 16, 16, 0.75);
 }
 
 a {
@@ -36,8 +37,30 @@ a {
 	opacity: 1;
 }
 
-@media (max-width: 800px) {
-	.desktopLink {
-		display: none !important;
-	}
+.primaryButton {
+	background: #da342c;
+	box-shadow: -3px 2px 18px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+	/* identical to box height */
+
+	color: #fcf8f8;
+	width: 150px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.primaryButton:hover {
+	background: #00915f;
+}
+
+.menu:hover {
+	filter: invert(40%) sepia(57%) saturate(7249%) hue-rotate(149deg) brightness(95%)
+		contrast(101%);
 }
