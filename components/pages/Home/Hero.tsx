@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import HeroImage from '../../../public/backgrounds/hero.png';
-import styles from '../../../styles/Home.module.css';
+import styles from '../../../styles/Background.module.css';
 
 function Hero() {
 	return (
