@@ -1,0 +1,7 @@
+.heroContainer {
+	background-image: url(../public/backgrounds/hero.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: calc(100vh - 90px);
+	background-position: center;
+}

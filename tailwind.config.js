@@ -10,6 +10,7 @@ module.exports = {
 				success: '#00915F',
 				lightSuccess: '#78E1BB',
 				offWhite: '#F6F3F3',
+				offWhiteMain: '#FCF8F8',
 			},
 			backgroundColor: {
 				dark: '#181010BD',
