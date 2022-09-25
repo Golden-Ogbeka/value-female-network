@@ -49,8 +49,8 @@ function About() {
 						/>
 					</div>
 				</div>
-				<div className='grid justify-items-center lg:justify-items-stretch mt-[85px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center'>
-					<div className='flex flex-col items-center md:items-start'>
+				<div className='grid justify-items-center lg:justify-items-stretch mt-[85px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center '>
+					<div className='flex flex-col items-center md:items-start reveal'>
 						<h3 className='text-success font-[Kalam] text-[32px] md:text-left text-center'>
 							Support Our Quest Today!
 						</h3>

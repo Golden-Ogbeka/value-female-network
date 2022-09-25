@@ -6,7 +6,7 @@ function JoinSection() {
 	return (
 		<section id='join-us'>
 			<div className={styles.joinUsContainer}>
-				<div className='pt-14 pb-14 pl-[3vw] pr-[3vw] flex items-center flex-col'>
+				<div className='pt-14 pb-14 pl-[3vw] pr-[3vw] flex items-center flex-col reveal'>
 					<h3 className='font-[Kalam] text-center text-4xl pb-10'>
 						Are you enthusiastic about SRHR???
 					</h3>
