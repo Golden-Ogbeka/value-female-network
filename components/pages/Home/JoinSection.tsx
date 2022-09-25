@@ -17,7 +17,7 @@ function JoinSection() {
 					</p>
 					<Link href='/donate'>
 						<button
-							className='primaryButton'
+							className='secondaryButton'
 							style={{
 								width: 'fit-content',
 								padding: 20,

@@ -17,3 +17,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.newsletterBackground {
+	background-image: url(../public/backgrounds/newsletter.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}

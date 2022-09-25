@@ -60,6 +60,29 @@ a {
 	background: #00915f;
 }
 
+.secondaryButton {
+	background: #da342c;
+	box-shadow: -3px 2px 18px rgba(0, 0, 0, 0.25);
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+	/* identical to box height */
+
+	color: #fcf8f8;
+	padding: 20px;
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.secondaryButton:hover {
+	background: #00915f;
+}
+
 .menu:hover {
 	filter: invert(40%) sepia(57%) saturate(7249%) hue-rotate(149deg) brightness(95%)
 		contrast(101%);
