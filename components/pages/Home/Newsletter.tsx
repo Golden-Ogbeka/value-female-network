@@ -19,7 +19,7 @@ function Newsletter() {
 							className='flex flex-row gap-2 items-center flex-wrap md:flex-nowrap'
 							onSubmit={(e) => {
 								e.preventDefault();
-								alert('Submitted');
+								alert('Subscribed');
 							}}
 						>
 							<input

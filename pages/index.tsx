@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import React from 'react';
 import AppLayout from '../components/layout/AppLayout';
 import About from '../components/pages/Home/About';
+import Contact from '../components/pages/Home/Contact';
 import Hero from '../components/pages/Home/Hero';
 import JoinSection from '../components/pages/Home/JoinSection';
 import Newsletter from '../components/pages/Home/Newsletter';
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
 			<Hero />
 			<About />
 			<JoinSection />
+			<Contact />
 			<Newsletter />
 		</AppLayout>
 	);
