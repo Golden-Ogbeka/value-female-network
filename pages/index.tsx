@@ -3,6 +3,7 @@ import React from 'react';
 import AppLayout from '../components/layout/AppLayout';
 import About from '../components/pages/Home/About';
 import Hero from '../components/pages/Home/Hero';
+import JoinSection from '../components/pages/Home/JoinSection';
 import { reveal } from '../functions/animation';
 
 const Home: NextPage = () => {
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
 		<AppLayout>
 			<Hero />
 			<About />
+			<JoinSection />
 		</AppLayout>
 	);
 };

@@ -11,3 +11,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.joinUsContainer {
+	background-image: url(../public/backgrounds/join.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
