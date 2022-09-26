@@ -14,9 +14,9 @@ function Hero() {
 						<p className='mt-5 mb-5 text-offWhiteMain md:text-[32px] text-[25px]'>
 							We are committed to tackling harmful and deleterious social and gender norms
 						</p>
-						<Link href='#join-us'>
+						<a href='#join-us'>
 							<button className='primaryButton'>Join Us</button>
-						</Link>
+						</a>
 					</div>
 				</div>
 			</div>

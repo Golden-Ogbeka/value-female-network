@@ -12,9 +12,9 @@ function QuickLinks() {
 				<li className='hover:text-lightSuccess'>
 					<Link href='/#about'>About Us</Link>
 				</li>
-				<li className='hover:text-lightSuccess'>
+				{/* <li className='hover:text-lightSuccess'>
 					<Link href='/#events'>Events</Link>
-				</li>
+				</li> */}
 				<li className='hover:text-lightSuccess'>
 					<Link href='/#contact'>Contact</Link>
 				</li>

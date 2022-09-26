@@ -49,7 +49,7 @@ function About() {
 						/>
 					</div>
 				</div>
-				<div className='grid justify-items-center lg:justify-items-stretch mt-[85px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center '>
+				<div className='grid justify-items-center lg:justify-items-end mt-[85px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 items-center '>
 					<div className='flex flex-col items-center md:items-start reveal'>
 						<h3 className='text-success font-[Kalam] text-[32px] md:text-left text-center'>
 							Support Our Quest Today!
@@ -58,9 +58,9 @@ function About() {
 							Join our Crusade of helping humanity. Your Impact will Make the World a Better
 							place.
 						</p>
-						<Link href='/#join-us'>
+						<a href='#join-us'>
 							<button className='primaryButton'>Join Us</button>
-						</Link>
+						</a>
 					</div>
 					<div className='lg:col-span-2 p-0 m-0'>
 						<Image src={WomenBG} alt='Women' />

@@ -19,9 +19,9 @@ function Navbar() {
 					<Link href='/#about'>
 						<span className='font-bold hover:text-success cursor-pointer'>About Us</span>
 					</Link>
-					<Link href='/#events'>
+					{/* <Link href='/#events'>
 						<span className='font-bold hover:text-success cursor-pointer'>Event and News</span>
-					</Link>
+					</Link> */}
 					<Link href='/#contact'>
 						<span className='font-bold hover:text-success cursor-pointer'>Contact Us</span>
 					</Link>
