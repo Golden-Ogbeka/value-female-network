@@ -181,7 +181,7 @@ function DonationForm() {
 						))}
 					</div>
 					<LabelInput
-						containerClass='w-[500px] max-w-full mt-10'
+						containerClass='w-[400px] max-w-full mt-10'
 						label='Enter value manually'
 						name='donationValue'
 						type='number'
