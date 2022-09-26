@@ -66,7 +66,7 @@ function DonationForm() {
 	};
 	return (
 		<section id='donation-form'>
-			<div className='pl-[3vw] pr-[3vw] pt-14 pb-20'>
+			<div className='pl-[3vw] pr-[3vw] pt-28 pb-28'>
 				<div className='flex justify-center gap-10 lg:gap-28 mb-9 flex-wrap'>
 					<div className='flex items-center'>
 						<input
