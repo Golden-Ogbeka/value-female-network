@@ -14,6 +14,8 @@ module.exports = {
 			},
 			backgroundColor: {
 				dark: '#181010BD',
+				lightSuccess: '#78E1BB',
+				primary: '#DA342C',
 			},
 		},
 	},

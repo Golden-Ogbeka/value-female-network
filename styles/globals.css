@@ -12,6 +12,7 @@ body {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 	color: rgba(24, 16, 16, 0.75);
+	background-color: #fcf8f8bf;
 }
 
 a {
@@ -86,4 +87,24 @@ a {
 .menu:hover {
 	filter: invert(40%) sepia(57%) saturate(7249%) hue-rotate(149deg) brightness(95%)
 		contrast(101%);
+}
+
+.radioInput {
+	appearance: none;
+
+	border-radius: 50%;
+	width: 33px;
+	height: 33px;
+	border: 2px solid #ababab;
+
+	transition: 0.2s all linear;
+	margin-right: 16px;
+	position: relative;
+	/* top: 4px; */
+}
+
+.radioInput:checked {
+	border-color: #d24943;
+	background-color: #fff;
+	border-width: 6.6px;
 }
