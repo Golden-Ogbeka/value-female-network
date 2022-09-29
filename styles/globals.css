@@ -9,7 +9,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-	scroll-behavior: smooth;
+	scroll-behavior: smooth !important;
 	overflow-x: hidden;
 	color: rgba(24, 16, 16, 0.75);
 	background-color: #fcf8f8bf;
